@@ -94,8 +94,8 @@ region_abbr <- "MA"
 
 url2fig <- function(pfx, sfx){
 
-  url <- glue("{pfx}/{sfx}")
-  fig <- here(glue("figures/{sfx}"))
+  url <- glue::glue("{pfx}/{sfx}")
+  fig <- here(glue::glue("figures/{sfx}"))
   
   dir.create(dirname(fig), showWarnings = F, recursive = T)
   

@@ -48,7 +48,8 @@ Imports:
   xml2,
   ggrepel,
   kernlab,
-  sf
+  sf,
+  glue
 Remotes: 
   slucey/RSurvey/Survdat,
   NOAA-EDAB/ecodata,
