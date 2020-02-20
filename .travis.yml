@@ -2,9 +2,10 @@
 
 os: linux
 language: r
-r_github_packages: NOAA-EDAB/ecodata
-r_github_packages: ropensci/rnaturalearth
-r_github_packages: ropensci/rnaturalearthhires
+r_github_packages: 
+  - NOAA-EDAB/ecodata
+  - ropensci/rnaturalearth
+  - ropensci/rnaturalearthhires
 pandoc_version: 2.6
 cache: packages
 
@@ -15,6 +16,7 @@ before_install:
  - sudo apt-get install libmagick++-dev
  - sudo apt-get update
  - sudo apt-get install libudunits2-dev
+ - tlmgr install threeparttablex infwarerr pdfescape letltxmacro bitset grffile pdflscape makecell
 
 script:
   - Rscript -e "bookdown::render_book('index.Rmd', 'bookdown::gitbook')"
