@@ -89,11 +89,11 @@ See the [workedExample vignette](https://github.com/andybeet/indexPPR/tree/maste
 
 ```{r, pprgom,echo=FALSE, out.width='50%'}
 
-knitr::include_graphics(file.path(imagePath,'test.png'))
-#knitr::include_graphics(paste0(imagePath,"PPR-GOM-0_80.png"))
-#knitr::include_graphics(paste0(imagePath,"MTL-GOM-0_80.png"))
-#knitr::include_graphics(paste0(imagePath,"PP-GOM.png"))
-#knitr::include_graphics(paste0(imagePath,"composition-GOM-0_80.png"))
+#url2fig(imagePath,'test.png')
+url2fig(imagePath,"PPR-GOM-0_80.png")
+url2fig(imagePath,"MTL-GOM-0_80.png")
+url2fig(imagePath,"PP-GOM.png")
+url2fig(imagePath,"composition-GOM-0_80.png")
 ```
 
 #### Mid-Atlantic Bight (MAB)
