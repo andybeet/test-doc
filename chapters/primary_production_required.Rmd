@@ -79,10 +79,10 @@ See the [workedExample vignette](https://github.com/andybeet/indexPPR/tree/maste
 
 ```{r, pprgb, echo=FALSE, out.width='50%'}
                                          
-#knitr::include_graphics(paste0(imagePath,"PPR-GB-0_80.png"))
-#knitr::include_graphics(paste0(imagePath,"MTL-GB-0_80.png"))
-#knitr::include_graphics(paste0(imagePath,"PP-GB.png"))
-#knitr::include_graphics(paste0(imagePath,"composition-GB-0_80.png"))
+url2fig(imagePath,"PPR-GB-0_80.png")
+url2fig(imagePath,"MTL-GB-0_80.png")
+url2fig(imagePath,"PP-GB.png")
+url2fig(imagePath,"composition-GB-0_80.png")
 ```
 
 #### Gulf of Maine (GOM)
@@ -99,10 +99,10 @@ url2fig(imagePath,"composition-GOM-0_80.png")
 #### Mid-Atlantic Bight (MAB)
 
 ```{r, pprmab,  echo=FALSE, out.width='50%'}
-#knitr::include_graphics(paste0(imagePath,"PPR-MAB-0_80.png"))
-#knitr::include_graphics(paste0(imagePath,"MTL-MAB-0_80.png"))
-#knitr::include_graphics(paste0(imagePath,"PP-MAB.png"))
-#knitr::include_graphics(paste0(imagePath,"composition-MAB-0_80.png"))
+url2fig(imagePath,"PPR-MAB-0_80.png")
+url2fig(imagePath,"MTL-MAB-0_80.png")
+url2fig(imagePath,"PP-MAB.png")
+url2fig(imagePath,"composition-MAB-0_80.png")
 ```
 
 
