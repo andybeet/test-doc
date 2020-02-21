@@ -93,16 +93,7 @@ epu_abbr <- "MAB"
 region <- "Mid-Atlantic"
 region_abbr <- "MA"
 
-url2fig <- function(pfx, sfx){
 
-  url <- glue::glue("{pfx}/{sfx}")
-  fig <- here(glue::glue("figures/{sfx}"))
-  
-  dir.create(dirname(fig), showWarnings = F, recursive = T)
-  
-  if (!file.exists(fig)) download.file(url, fig)
-  knitr::include_graphics(fig)
-}
 
 ```
 

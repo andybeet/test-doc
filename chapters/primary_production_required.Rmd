@@ -91,8 +91,6 @@ See the [workedExample vignette](https://github.com/andybeet/indexPPR/tree/maste
 
 ```{r, pprgb, echo=FALSE, out.width='50%'}
                               
-knitr::include_graphics("C:/Users/andrew.beet/Documents/MyWork/demo_repos/test-doc/figures/PP-GB.png"     )      
-
 url2fig(imagePath,"PPR-GB-0_80.png")
 url2fig(imagePath,"MTL-GB-0_80.png")
 url2fig(imagePath,"PP-GB.png")
