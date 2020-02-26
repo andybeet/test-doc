@@ -90,11 +90,13 @@ See the [workedExample vignette](https://github.com/andybeet/indexPPR/tree/maste
 #### Georges Bank (GB)
 
 ```{r, pprgb, echo=FALSE, out.width='50%'}
-                              
-url2fig(imagePath,"PPR-GB-0_80.png")
-url2fig(imagePath,"MTL-GB-0_80.png")
-url2fig(imagePath,"PP-GB.png")
-url2fig(imagePath,"composition-GB-0_80.png")
+![](https://raw.githubusercontent.com/andybeet/indexPPR/master/vignettes/figures/PPR-GB-0_80.png)                    
+
+          
+#url2fig(imagePath,"PPR-GB-0_80.png")
+#url2fig(imagePath,"MTL-GB-0_80.png")
+#url2fig(imagePath,"PP-GB.png")
+#url2fig(imagePath,"composition-GB-0_80.png")
 ```
 
 #### Gulf of Maine (GOM)
@@ -102,19 +104,19 @@ url2fig(imagePath,"composition-GB-0_80.png")
 ```{r, pprgom,echo=FALSE, out.width='50%'}
 
 #url2fig(imagePath,'test.png')
-url2fig(imagePath,"PPR-GOM-0_80.png")
-url2fig(imagePath,"MTL-GOM-0_80.png")
-url2fig(imagePath,"PP-GOM.png")
-url2fig(imagePath,"composition-GOM-0_80.png")
+#url2fig(imagePath,"PPR-GOM-0_80.png")
+#url2fig(imagePath,"MTL-GOM-0_80.png")
+#url2fig(imagePath,"PP-GOM.png")
+#url2fig(imagePath,"composition-GOM-0_80.png")
 ```
 
 #### Mid-Atlantic Bight (MAB)
 
 ```{r, pprmab,  echo=FALSE, out.width='50%'}
-url2fig(imagePath,"PPR-MAB-0_80.png")
-url2fig(imagePath,"MTL-MAB-0_80.png")
-url2fig(imagePath,"PP-MAB.png")
-url2fig(imagePath,"composition-MAB-0_80.png")
+#url2fig(imagePath,"PPR-MAB-0_80.png")
+#url2fig(imagePath,"MTL-MAB-0_80.png")
+#url2fig(imagePath,"PP-MAB.png")
+#url2fig(imagePath,"composition-MAB-0_80.png")
 ```
 
 
