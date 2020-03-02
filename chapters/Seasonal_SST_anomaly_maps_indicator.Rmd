@@ -20,6 +20,6 @@ test for rnaturalhires
 ### Plotting
 
 
-```{r , code = readLines("https://raw.githubusercontent.com/NOAA-EDAB/ecodata/master/chunk-scripts/LTL.Rmd-MAB-SST-insitu.R"), echo = F, fig.align="center", eval = T, ig.cap="MAB seasonal sea surface temperature time series overlaid onto 2019 seasonal spatial anomalies."}
-
+```{r , code = readLines("https://raw.githubusercontent.com/NOAA-EDAB/ecodata/master/chunk-scripts/LTL.Rmd-MAB-SST-insitu.R"), echo = F, fig.align="center", eval = F, ig.cap="MAB seasonal sea surface temperature time series overlaid onto 2019 seasonal spatial anomalies."}
+ 
 ```
