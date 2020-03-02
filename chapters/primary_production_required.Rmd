@@ -17,16 +17,6 @@
 ```{r pprchunk1, echo = F, eval = T}  
 imagePath <- "https://raw.githubusercontent.com/andybeet/indexPPR/master/vignettes/figures"
 
-url2fig <- function(pfx, sfx){
-
-  url <- glue::glue("{pfx}/{sfx}")
-  fig <- here(glue::glue("figures/{sfx}"))
-  
-  dir.create(dirname(fig), showWarnings = F, recursive = T)
-  
-  if (!file.exists(fig)) download.file(url, fig)
-  knitr::include_graphics(fig)
-}
 
 ```
 
@@ -90,7 +80,6 @@ See the [workedExample vignette](https://github.com/andybeet/indexPPR/tree/maste
 #### Georges Bank (GB)
 
 ```{r, pprgb, echo=FALSE, out.width='50%'}
-![](https://raw.githubusercontent.com/andybeet/indexPPR/master/vignettes/figures/PPR-GB-0_80.png)                    
 
           
 #url2fig(imagePath,"PPR-GB-0_80.png")
