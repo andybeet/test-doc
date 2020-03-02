@@ -20,7 +20,7 @@ The purpose of this document is to collate the methods used to access, collect, 
 ```{r setup, echo=F, message = F ,warning = F}
 knitr::opts_chunk$set(echo = F, message = F ,warning = F) 
 update.packages(ask = FALSE, checkBuilt = TRUE)  # update R packages
-tinytex::tlmgr_update()                          # update LaTeX packages ;)
+tinytex::tlmgr_update()                          # update LaTeX packages ;))
 
 #Plotting and data libraries
 #library(formatR)
