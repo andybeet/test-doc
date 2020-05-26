@@ -1,0 +1,11 @@
+# Aquaculture
+
+**Description**: Aquaculture indicators
+
+**Found in**: State of the Ecosystem - Gulf of Maine & Georges Bank (2017, 2018), State of the Ecosystem - Mid-Atlantic (2017, 2018, 2019)
+
+### Plotting
+Code for plotting data included in the State of the Ecosystem report can be found [here](https://github.com/NOAA-EDAB/ecodata/blob/master/chunk-scripts/human_dimensions.Rmd-oyster-aqua.R). 
+
+```{r, code = readLines("https://raw.githubusercontent.com/NOAA-EDAB/ecodata/master/chunk-scripts/human_dimensions.Rmd-oyster-aqua.R"), fig.cap="Oyster aquaculture production in terms of number of oysters sold from Virginia, Maryland, and New Jersey.",echo = F, eval =T, warning = F, message=F, fig.align='center', fig.height=4}
+```

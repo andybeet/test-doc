@@ -2,6 +2,7 @@ book_filename: "test_doc"
 rmd_files: ["index.Rmd",
 #"chapters/primary_production_required.Rmd",
 "chapters/Seasonal_SST_anomaly_maps_indicator.Rmd",
+"chapters/aquaculture.Rmd",
 "chapters/references.Rmd"]
 delete_merged_file: false
 output_dir: "_book"
