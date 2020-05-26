@@ -23,6 +23,8 @@ knitr::opts_chunk$set(echo = F, message = F ,warning = F)
 tinytex::tlmgr_update()                          # update LaTeX packages ;))
 
 #Plotting and data libraries
+remotes::install_github("noaa-edab/ecodata")
+remotes::install_github("thomasp85/patchwork")
 #library(formatR)
 library(plyr)
 library(tidyverse)
