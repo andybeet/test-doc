@@ -325,8 +325,14 @@
     "ecodata": {
       "Package": "ecodata",
       "Version": "0.1.0",
-      "Source": "unknown",
-      "Hash": "7c8435f5c73896c02e574288bdcabc71"
+      "Source": "GitHub",
+      "RemoteType": "github",
+      "RemoteHost": "api.github.com",
+      "RemoteRepo": "ecodata",
+      "RemoteUsername": "noaa-edab",
+      "RemoteRef": "HEAD",
+      "RemoteSha": "58a2d9d7c8b7f0eba2d0e5976ea6505ca6e8bf7d",
+      "Hash": "e606472ac94bdc6809ea4c14b6a4ac3d"
     },
     "ellipsis": {
       "Package": "ellipsis",
